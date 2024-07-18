@@ -662,6 +662,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> by  <
     <script src="js/mail-script.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function(){
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+        items: 1,
+        autoplay: true,
+        autoPlaySpeed: 5000,
+        autoPlayTimeout: 5000,
+        autoplayHoverPause: true
+    });
+});
+</script>
 </body>
 
 </html>
