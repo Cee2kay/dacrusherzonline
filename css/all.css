@@ -3879,10 +3879,8 @@ readers do not read off random characters that represent icons */
   content: "\f1e8"; }
 
 .fa-tiktok:before {
-    color: #111111;
-    filter: drop-shadow(-5px -5px 0 #24f6f0) contrast(150%) brightness(110%);
-    z-index: -1;
- }
+   content: "\e07b";}
+
 .fa-twitter:before {
   content: "\f099"; }
 
