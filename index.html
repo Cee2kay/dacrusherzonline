@@ -644,30 +644,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> by  <
         </footer>
         <!--::footer_part end::-->
     </div>
-<script>
-
-$(document).ready(function() {
-  var car = $(".owl-carousel");
-  var carItems = 7; //items to show per page
-  car.owlCarousel({
-    items: carItems,
-    margin: 10,
-    loop: true,
-    center: true,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: false,
-    responsiveClass: false,
-    callbacks: true,
-    onInitialized: function(e) {
-      if (carItems >= e.item.count) {
-        car.trigger("stop.owl.autoplay");
-      } else {}
-    }
-  });
-});
-
-    </script>
  <!-- jquery plugins here-->
  <script src="js/jquery-1.12.1.min.js"></script>
  <!-- popper js -->
