@@ -2373,7 +2373,7 @@ ul {
   width: 100%;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
   top: 0;
-  background-color: #02082c;
+  background-color: #ff0000;
 }
 
 /* line 179, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2391,7 +2391,6 @@ ul {
   border: 0px solid transparent;
   background-color: #ff0000;
 }
-
 
 /* line 194, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .dropdown .dropdown-menu .dropdown-item {
@@ -2896,7 +2895,7 @@ ul {
 
 /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_text {
-  background-image: url("../img/mbll_gameplay.jpg");
+  background-image: url("../img/latest_war_img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2959,7 +2958,7 @@ ul {
 
 /* line 54, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_bg_1 {
-  background-image: url("../img/mbll_gameplay.jpg";
+  background-image: url("../img/latest_war_img_1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
