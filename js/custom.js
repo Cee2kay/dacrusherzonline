@@ -118,6 +118,10 @@
     });
   }
 
+
+
+
+
   function makeTimer() {
     //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
     var endTime = new Date("24 sep 2019 9:56:00 GMT+06:00");

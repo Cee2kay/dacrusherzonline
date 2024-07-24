@@ -563,11 +563,11 @@
                         <div class="col-sm-6 col-lg-3">
                             <div class="single_footer_part">
                                 <h4>Contact Info</h4>
-                                <p>Address : Your address goes
+                                <!-- <p>Address : Your address goes
                                     here, your demo address.
-                                    Bangladesh.</p>
-                                <p>Phone : +8880 44338899</p>
-                                <p>Email : info@colorlib.com</p>
+                                    Bangladesh.</p> -->
+                                <!-- <p>Phone : +8880 44338899</p> -->
+                                <p>Email : info@dacrusherz.online</p>
                             </div>
                         </div>
                         <!-- <div class="col-sm-6 col-lg-3">
@@ -634,8 +634,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> by  <
         </footer>
         <!--::footer_part end::-->
     </div>
+<script>
 
+$(document).ready(function() {
+  var car = $(".owl-carousel");
+  var carItems = 7; //items to show per page
+  car.owlCarousel({
+    items: carItems,
+    margin: 10,
+    loop: true,
+    center: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: false,
+    responsiveClass: false,
+    callbacks: true,
+    onInitialized: function(e) {
+      if (carItems >= e.item.count) {
+        car.trigger("stop.owl.autoplay");
+      } else {}
+    }
+  });
+});
 
+    </script>
  <!-- jquery plugins here-->
  <script src="js/jquery-1.12.1.min.js"></script>
  <!-- popper js -->
